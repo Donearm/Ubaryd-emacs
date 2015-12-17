@@ -3,7 +3,7 @@
 ;; Copyright © 2015 Gianluca Fiore
 ;; Author: Gianluca Fiore
 ;; Url: https://github.com/Donearm/ubaryd-emacs
-;; Version: 0.1
+;; Version: 0.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -84,6 +84,34 @@
 	 `(company-tooltip-common-selection ((,class (:foreground ,ubc-barcared :background ,ubc-deepgravel))))
 	 `(company-tooltip-selection ((,class (:background ,ubc-deepergravel))))
 
+	 `(compilation-error ((,class (:foreground ,ubc-barcared))))
+	 `(compilation-info ((,class (:foreground ,ubc-bleaklemon))))
+	 `(compilation-line-number ((,class (:foreground ,ubc-blackestgravel))))
+	 `(compilation-mode-line-exit ((,class (:foreground ,ubc-algae))))
+	 `(compilation-mode-line-fail ((,class (:foreground ,ubc-barcared))))
+	 `(compilation-mode-line-run ((,class (:foreground ,ubc-bleaklemon))))
+
+	 `(diredp-date-time ((,class (:foreground ,ubc-snow))))
+	 `(diredp-deletion ((,class (:foreground ,ubc-barcared :background ,ubc-coal))))
+	 `(diredp-dir-heading ((,class (:foreground ,ubc-bleaklemon :background ,ubc-coal))))
+	 `(diredp-dir-priv ((,class (:foreground ,ubc-beachblue :background ,ubc-coal))))
+	 `(diredp-exec-priv ((,class (:foreground ,ubc-snow :background ,ubc-coal))))
+	 `(diredp-file-name ((,class (:foreground ,ubc-snow))))
+	 `(diredp-file-suffix ((,class (:foreground ,ubc-snow))))
+	 `(diredp-link-priv ((,class (:foreground ,ubc-snow))))
+	 `(diredp-number ((,class (:foreground ,ubc-snow))))
+	 `(diredp-no-priv ((,class (:foreground ,ubc-snow :background ,ubc-coal))))
+	 `(diredp-rare-priv ((,class (:foreground ,ubc-barcared :background ,ubc-coal))))
+	 `(diredp-read-priv ((,class (:foreground ,ubc-snow :background ,ubc-coal))))
+	 `(diredp-symlink ((,class (:foreground ,ubc-orange))))
+	 `(diredp-write-priv ((,class (:foreground ,ubc-snow :background ,ubc-coal))))
+
+	 `(eshell-prompt ((,class (:foreground ,ubc-barcared))))
+	 `(eshell-ls-directory ((,class (:weight normal :foreground ,ubc-algae))))
+	 `(eshell-ls-executable ((,class (:weight normal :foreground ,ubc-barcared))))
+	 `(eshell-ls-product ((,class (:foreground ,ubc-snow))))
+	 `(eshell-ls-symlink ((,class (:weight normal :foreground ,ubc-beachblue))))
+
    `(font-lock-comment-face ((t (:foreground ,ubc-lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,ubc-lightgravel))))
    `(font-lock-doc-face ((t (:foreground ,ubc-snow))))
@@ -96,8 +124,25 @@
    `(font-lock-constant-face ((t (:foreground ,ubc-orange))))
    `(font-lock-warning-face ((t (:foreground ,ubc-tannedumbrella :weight bold))))
 
-  `(show-paren-match ((t (:background ,ubc-beachblue :weight bold))))
-  `(show-paren-mismatch ((t (:background ,ubc-barcared :weight bold))))
+	 `(git-commit-comment-file ((,class (:foreground ,ubc-snow))))
+	 `(git-commit-comment-heading ((,class (:foreground ,ubc-warmcorn))))
+	 `(git-commit-summary ((,class (:foreground ,ubc-snow))))
+
+	 `(isearch ((,class (:foreground ,ubc-snow :background ,ubc-beachblue))))
+	 `(isearch-fail ((,class (:background ,ubc-barcared))))
+
+	 `(org-checkbox ((,class (:foreground ,ubc-algae))))
+	 `(org-date ((,class (:foreground ,ubc-beachblue))))
+	 `(org-done ((,class (:foreground ,ubc-algae))))
+	 `(org-level-1 ((,class (:foreground ,ubc-orange))))
+	 `(org-level-2 ((,class (:foreground ,ubc-barcared))))
+	 `(org-level-3 ((,class (:foreground ,ubc-barcared))))
+	 `(org-link ((,class (:foreground ,ubc-beachblue))))
+	 `(org-special-keyword ((,class (:foreground ,ubc-tannedumbrella))))
+	 `(org-todo ((,class (:foreground ,ubc-bleaklemon))))
+
+		`(show-paren-match ((t (:background ,ubc-beachblue :weight bold))))
+		`(show-paren-mismatch ((t (:background ,ubc-barcared :weight bold))))
 
     ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,ubc-lightgravel))))
@@ -112,8 +157,6 @@
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,ubc-nut))))
    `(rainbow-delimiters-depth-11-face ((t (:foreground ,ubc-lighttannedskin))))
    `(rainbow-delimiters-unmatched-face ((t (:foreground "red"))))
-
-
 
 
    ))
