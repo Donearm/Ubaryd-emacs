@@ -3,6 +3,7 @@
 ;; Copyright © 2015 Gianluca Fiore
 ;; Author: Gianluca Fiore
 ;; Url: https://github.com/Donearm/ubaryd-emacs
+;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -75,6 +76,13 @@
    `(mode-line ((t (:box (:line-width -1 :style released-button) :foreground ,ubc-bleaksand :background ,ubc-darkgravel))))
    `(mode-line-inactive ((t (:box (:line-width -1 :style released-button) :foreground ,ubc-snow :background ,ubc-deepgravel))))
 
+	 `(company-preview-common ((,class (:foreground nil :background ,ubc-tannedumbrella))))
+	 `(company-scrollbar-bg ((,class (:background ,ubc-blackestgravel))))
+	 `(company-scrollbar-fg ((,class (:background ,ubc-bleaksand))))
+	 `(company-tooltip ((,class (:foreground ,ubc-snow :background ,ubc-blackgravel))))
+	 `(company-tooltip-common ((,class (:foreground ,ubc-barcared :background ,ubc-blackgravel))))
+	 `(company-tooltip-common-selection ((,class (:foreground ,ubc-barcared :background ,ubc-deepgravel))))
+	 `(company-tooltip-selection ((,class (:background ,ubc-deepergravel))))
 
    `(font-lock-comment-face ((t (:foreground ,ubc-lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,ubc-lightgravel))))
