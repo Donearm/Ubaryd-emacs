@@ -32,7 +32,7 @@
 
     (ubc-bleaksand "#d9cec3")
     (ubc-lightgravel "#998f84")
-    (ubc-gravel "#857f78")
+    (ubc-gravel "#989189")
     (ubc-mediumsand "#666462")
     (ubc-deepgravel "#45413b")
     (ubc-deepergravel "#35322d")
