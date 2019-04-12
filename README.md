@@ -20,3 +20,6 @@ Bugs, Improvements and Suggestions
 ==================================
 
 Please report any bugs you find in the Github issue tracker. I'm new to Emacs theming and I'm sure there are many bugs lurking around. Don't hesitate to send patch or pull requests.
+
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/W7W7KA0Z)
+
