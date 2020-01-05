@@ -1,6 +1,6 @@
 ;;; Ubaryd - An Emacs color theme with warm, Mediterranean-like, colours
 
-;; Copyright © 2015-2019 Gianluca Fiore
+;; Copyright © 2015-2020 Gianluca Fiore
 ;; Author: Gianluca Fiore
 ;; Url: https://github.com/Donearm/ubaryd-emacs
 ;; Version: 0.2
